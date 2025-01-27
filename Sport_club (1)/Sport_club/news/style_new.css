@@ -1,0 +1,39 @@
+.news_block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.container{
+    border: 3px solid red;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    gap: 60px;
+    flex-direction: column;
+}
+
+.top_block_conatiner{
+    display: flex;
+    gap: 170px;
+}
+
+.fs40fw600{
+    font-size: 40px;
+    font-weight: 600;
+    color: white;
+}
+
+.image{
+    max-width: 650px;
+}
+
+.fs32fw500{
+    font-size: 32px;
+    font-weight: 500;
+    color: white;
+    max-width: 800px;
+}
+

@@ -1,0 +1,105 @@
+body{
+    background: black;
+    margin: 0 auto;
+    max-width: 1700px;
+    width: 100%;
+}
+
+.Wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.fs40fw700white{
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+    padding-top: 50px;
+}
+
+.blocks{
+    display: flex;
+    gap: 50px;
+}
+
+.fs30fw700white{
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+    
+}
+
+.block_1{
+    display: flex;
+    gap: 20px;
+    border: 3px solid red;
+    padding: 25px 15px;
+    min-width: 500px;
+    border-radius: 15px;
+}
+
+.fs30fw700white{
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+    padding-top: 20px;
+}
+
+.block_2{
+    display: flex;
+    gap: 200px;
+    border: 3px solid red;
+    padding: 20px 30px;
+    min-width: 1000px;
+    border-radius: 15px;
+    align-items: center;
+}
+
+.top_block_2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.fs30fw700white{
+    font-size: 25px;
+    font-weight: 700;
+    color: white;
+}
+
+.fs90fw700red{
+    font-size: 80px;
+    font-weight: 700;
+    color: red;
+}
+
+.block_2 img{
+    max-width: 120px;
+    max-height: 120px;
+}
+
+.under_block_2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-self: flex-end;
+    padding: 20px;
+}
+
+.fs30fw700pink{
+    font-size: 25px;
+    font-weight: 700;
+    color: #F3A5A5;
+}
+
+button{
+    padding: 25px;
+    width: 100%;
+    border-radius: 15px;
+    background-color: red;
+    border: none;
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    cursor: pointer;
+}
